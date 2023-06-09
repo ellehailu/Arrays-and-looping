@@ -15,6 +15,10 @@ function beepBoop(userInput) {
             twoLocation = newArray.indexOf(2);
             newArray[twoLocation] = "boop";
         }
+        else if (newArray.includes(3)) {
+            threeLocation = newArray.indexOf(3);
+            newArray[threeLocation] = "Won't you be my neighbor?"
+        }
     })
     return newArray;
 }
