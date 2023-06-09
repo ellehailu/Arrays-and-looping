@@ -4,11 +4,13 @@ Test: "it should return an array of numbers from 0 to the user's inputted number
 Code: beepBoop(5);
 Expected output: [0,1,2,3,4,5]
 
-Describe replace()
-
 Test: "it should return an array of numbers 0 to the user's inputted number with the number 1 replaced with the text 'beep'"
 Code: beepBoop(7);
-Expected output: [0,"beep", 2,3,4,5,6,7]
+Expected output: [0,'beep', 2,3,4,5,6,7]
+
+Test: "it should return an array of numbers 0 to the user's inputted number with number 2 replaced with the text 'boop'"
+Code beepBoop(5);
+Expected output: [0,'beep', 'boop', 3, 4, 5]
 
 Instructions
 
