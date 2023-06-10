@@ -7,18 +7,17 @@ function beepBoop(userInput) {
     }
     console.log('counting up works');
     newArray.forEach(function (element) {
-        if (newArray.startsWith(1)) {
-            oneLocation = newArray.indexOf(1);
-            newArray[oneLocation] = "beep";
+        if (newArray[element].toString().startsWith('1')) {
+            newArray[element] = "beep!";
         }
-        else if (newArray.includes(2)) {
-            twoLocation = newArray.indexOf(2);
-            newArray[twoLocation] = "boop";
-        }
-        else if (newArray.includes(3)) {
-            threeLocation = newArray.indexOf(3);
-            newArray[threeLocation] = "Won't you be my neighbor?"
-        }
+        // else if (newArray.includes(2)) {
+        //     twoLocation = newArray.indexOf(2);
+        //     newArray[twoLocation] = "boop";
+        // }
+        // else if (newArray.includes(3)) {
+        //     threeLocation = newArray.indexOf(3);
+        //     newArray[threeLocation] = "Won't you be my neighbor?"
+        // }
     })
     return newArray;
 }
