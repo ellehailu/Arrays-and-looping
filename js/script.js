@@ -13,10 +13,9 @@ function beepBoop(userInput) {
         else if (newArray[element].toString().startsWith('2')) {
             newArray[element] = "boop!";
         }
-        // else if (newArray.includes(3)) {
-        //     threeLocation = newArray.indexOf(3);
-        //     newArray[threeLocation] = "Won't you be my neighbor?"
-        // }
+        else if (newArray[element].toString().startsWith('3')) {
+            newArray[element] = "Won't you be my neighbor?";
+        }
     })
     return newArray;
 }

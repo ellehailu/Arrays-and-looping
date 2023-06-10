@@ -21,8 +21,12 @@ Code: beepBoop(14);
 Expected output: [0, 'beep!', 2, 3, 4, 5, 6, 7, 8, 9, 'beep!', 'beep!', 'beep!', 'beep!', 'beep!']
 
 Test: "it should return an array of numbers 0 the user's inputted number with all numbers that start with 2 replaced with "boop!"
-Code: beepBoop(14);
-Expected output: [0, 'beep!', 'boop!', 3, 4, 5, 6, 7, 8, 9, 'beep!', 'beep!', 'beep!', 'beep!', 'beep!']
+Code: beepBoop(24);
+Expected output: [0, 'beep!', 'boop!', 3, 4, 5, 6, 7, 8, 9, 'beep!', 'beep!', 'beep!', 'beep!', 'beep!', 'beep!', 'beep!', 'beep!', 'beep!', 'beep!', 'boop!', 'boop!', 'boop!', 'boop!', 'boop!']
+
+Test: "it should return an array of numbers 0 to the user's inputteed number with number 3 replaced with the text 'won't you be my neighbor'";
+Code: beepBoop(35)
+Expected output:[0, 'beep!', 'boop!', "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, 'beep!', 'beep!', 'beep!', 'beep!', 'beep!', 'beep!', 'beep!', 'beep!', 'beep!', 'beep!', 'boop!', 'boop!', 'boop!', 'boop!', 'boop!', 'boop!', 'boop!', 'boop!', 'boop!', 'boop!', "Won't you be my neighbor?", "Won't you be my neighbor?", "Won't you be my neighbor?", "Won't you be my neighbor?", "Won't you be my neighbor?", "Won't you be my neighbor?"]
 
 Instructions
 
