@@ -1,4 +1,4 @@
-Business logic
+// Business logic
 
 function beepBoop(userInput) {
     let newArray = [];
@@ -7,7 +7,7 @@ function beepBoop(userInput) {
     }
     console.log('counting up works');
     newArray.forEach(function (element) {
-        if (newArray.includes(1)) {
+        if (newArray.startsWith(1)) {
             oneLocation = newArray.indexOf(1);
             newArray[oneLocation] = "beep";
         }
@@ -22,3 +22,9 @@ function beepBoop(userInput) {
     })
     return newArray;
 }
+
+// New idea 
+
+// create three new function that check if the elements of the array start with 1,2, or 3 respectively. Then continue to call those functions within the beepBoop function. ??
+
+//UI logic 

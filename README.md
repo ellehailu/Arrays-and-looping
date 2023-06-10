@@ -13,6 +13,7 @@ Code beepBoop(5);
 Expected output: [0,'beep', 'boop', 3, 4, 5]
 
 Test: "it should return an array of numbers 0 to the user's inputteed number with number 3 replaced with the text 'won't you be my neighbor'";
+Expected output: [0,'beep', 'boop', 'won't you be my neighbor', 4, 5]
 
 Instructions
 
