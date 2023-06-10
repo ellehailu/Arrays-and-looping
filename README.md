@@ -20,6 +20,10 @@ Test: "it should return an array of numbers 0 the user's inputted number with al
 Code: beepBoop(14);
 Expected output: [0, 'beep!', 2, 3, 4, 5, 6, 7, 8, 9, 'beep!', 'beep!', 'beep!', 'beep!', 'beep!']
 
+Test: "it should return an array of numbers 0 the user's inputted number with all numbers that start with 2 replaced with "boop!"
+Code: beepBoop(14);
+Expected output: [0, 'beep!', 'boop!', 3, 4, 5, 6, 7, 8, 9, 'beep!', 'beep!', 'beep!', 'beep!', 'beep!']
+
 Instructions
 
 //Identify if the user input includes 1
