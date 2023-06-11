@@ -17,7 +17,8 @@ function beepBoop(userInput) {
                 newArray[element] = "Beep!";
             }
         })
-        return newArray;
+    return newArray;
+    
     }
 
     //UI logic 
@@ -29,6 +30,7 @@ function handleForm(event) {
     result.innerText = updatedNums;
     document.body.append(result);
     console.log(result);
+    document.getElementById("number-form").reset();
 }
     window.addEventListener("load", function () {
         const form = document.getElementById("number-form");
