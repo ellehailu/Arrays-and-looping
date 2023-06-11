@@ -29,7 +29,6 @@ function handleForm(event) {
     let result = document.createElement("p")
     result.innerText = updatedNums;
     document.body.append(result);
-    console.log(result);
     document.getElementById("number-form").reset();
 }
     window.addEventListener("load", function () {
