@@ -6,22 +6,18 @@ function beepBoop(userInput) {
         newArray.push(i);
     }
     console.log('counting up works');
-    newArray.forEach(function (element) {
-        if (newArray[element].toString().startsWith('1')) {
-            newArray[element] = "beep!";
-        }
-        else if (newArray[element].toString().startsWith('2')) {
-            newArray[element] = "boop!";
-        }
-        else if (newArray[element].toString().startsWith('3')) {
+    newArray.forEach(function(element) {
+        if (newArray[element].toString().includes('3')) {
             newArray[element] = "Won't you be my neighbor?";
+        }
+        else if (newArray[element].toString().includes('2')) {
+            newArray[element] = "Boop!";
+        }
+        else if (newArray[element].toString().includes('1')) {
+            newArray[element] = "Beep!";
         }
     })
     return newArray;
 }
-
-// New idea 
-
-// create three new function that check if the elements of the array start with 1,2, or 3 respectively. Then continue to call those functions within the beepBoop function. ??
 
 //UI logic 
