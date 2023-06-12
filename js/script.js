@@ -26,9 +26,15 @@ function handleForm(event) {
     event.preventDefault();
     const userInput = document.getElementById("numberInput").value;
     const updatedNums = beepBoop(userInput);
+
+    //Create new element to add the results to and display to the user while removing the previous results each time the user reruns the application
+    const allResults = document.getElementById("results");
+    allResults.innerHTML = " ";
     let result = document.createElement("p")
     result.innerText = updatedNums;
-    document.body.append(result);
+    allResults.appendChild(result);
+
+    //reset the form so the user can enter a new number and get a new results
     document.getElementById("number-form").reset();
 }
     window.addEventListener("load", function () {
